@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import SignIn from './SignIn';
 import SignInSide from './SignInSide';
+import Checkout from './Checkout';
 
 function App() {
     return (
@@ -9,6 +10,8 @@ function App() {
             <SignIn />
             <hr />
             <SignInSide />
+            <hr />
+            <Checkout />
             <hr />
         </div>
     );
