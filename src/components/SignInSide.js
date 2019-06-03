@@ -28,7 +28,7 @@ function MadeWithLove() {
 const useStyles = makeStyles(theme => ({
   root: {
     height: '100vh',
-    margin: '0.5em',
+    marginLeft: '0.1em',
   },
   image: {
     backgroundImage: 'url(https://source.unsplash.com/random)',

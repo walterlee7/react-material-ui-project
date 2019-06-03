@@ -3,6 +3,7 @@ import './App.css';
 import SignIn from './SignIn';
 import SignInSide from './SignInSide';
 import Checkout from './Checkout';
+import Pricing from './Pricing';
 
 function App() {
     return (
@@ -12,6 +13,8 @@ function App() {
             <SignInSide />
             <hr />
             <Checkout />
+            <hr />
+            <Pricing />
             <hr />
         </div>
     );
