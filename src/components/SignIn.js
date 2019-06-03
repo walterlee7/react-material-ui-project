@@ -71,7 +71,7 @@ export default function SignIn() {
                         margin="normal"
                         required
                         fullWidth
-                        id="email"
+                        id="signin-email"
                         label="Email Address"
                         name="email"
                         autoComplete="email"
@@ -85,7 +85,7 @@ export default function SignIn() {
                         name="password"
                         label="Password"
                         type="password"
-                        id="password"
+                        id="signin-password"
                         autoComplete="current-password"
                     />
                     <FormControlLabel
