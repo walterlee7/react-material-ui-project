@@ -9,29 +9,45 @@ class Markdown extends Component {
         super(props);
 
         this.state = {
-            marked: [
-
-            ],
+            marked: [],
         }
     }
 
     componentWillMount() {
         const posts = [post1, post2, post3];
-        console.log(posts);
+        console.log(posts.length);
 
         let postArray = ['hello', 'world'];
 
-        posts.map((post) =>
-            // console.log(post)
-            fetch(post).then(
+
+        for (let i = 0; i < posts.length; i++) {
+
+            fetch(posts[i]).then(
                 (response) =>
                     // console.dir(response),
                     response.text()
             ).then((text) => {
                 // console.log('text before push ' + text);
+
                 postArray.push(text)
+
             })
-        )
+
+        }
+
+        // posts.map((post) =>
+        //     // console.log(post)
+        //     fetch(post).then(
+        //         (response) =>
+        //             // console.dir(response),
+        //             response.text()
+        //     ).then((text) => {
+        //         // console.log('text before push ' + text);
+
+        //         postArray.push(text)
+
+        //     })
+        // )
 
         // console.log(this.state.marked);
 
@@ -46,6 +62,7 @@ class Markdown extends Component {
         );
 
         console.log(this.state.marked);
+
 
         return (
             <div className="content">
