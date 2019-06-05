@@ -15,41 +15,15 @@ class Markdown extends Component {
 
     async componentWillMount() {
         const posts = [post1, post2, post3];
-        console.log(posts.length);
-
         let postArray = [];
 
-
         for (let i = 0; i < posts.length; i++) {
-
             await fetch(posts[i]).then(
-                (response) =>
-                    // console.dir(response),
-                    response.text()
+                (response) => response.text()
             ).then((text) => {
-                // console.log('text before push ' + text);
-
                 postArray.push(text)
-
             })
-
         }
-
-        // posts.map((post) =>
-        //     // console.log(post)
-        //     fetch(post).then(
-        //         (response) =>
-        //             // console.dir(response),
-        //             response.text()
-        //     ).then((text) => {
-        //         // console.log('text before push ' + text);
-
-        //         postArray.push(text)
-
-        //     })
-        // )
-
-        // console.log(this.state.marked);
 
         this.setState({
             marked: postArray
@@ -57,17 +31,8 @@ class Markdown extends Component {
     }
 
     render() {
-        console.log(
-            Array.isArray(this.state.marked)
-        );
-
-        console.log(this.state.marked);
-
-
         return (
             <div className="content">
-                {/* <ReactMarkdown source={this.state.marked} /> */}
-
                 {this.state.marked.map((post, index) => <ReactMarkdown source={post} key={index} />)}
             </div>
         )
