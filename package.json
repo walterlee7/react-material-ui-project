@@ -1,10 +1,12 @@
 {
+    "homepage": "https://walterlee7.github.io/react-material-ui-project",
     "name": "react-material-ui-project",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
         "@material-ui/core": "^4.0.2",
         "@material-ui/icons": "^4.0.1",
+        "gh-pages": "^2.0.1",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
         "react-markdown": "^4.0.8",
@@ -15,7 +17,8 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "deploy": "npm run build && gh-pages -d build"
     },
     "eslintConfig": {
         "extends": "react-app"
