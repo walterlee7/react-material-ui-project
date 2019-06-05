@@ -4,8 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is React project to showcase Material-UI page layouts.
 
-A. requires npm install @material-ui/core
-B. requires npm install @material-ui/icons
+A. requires npm install @material-ui/core.
+
+B. requires npm install @material-ui/icons.
 
 # Material-UI Layouts:
 
