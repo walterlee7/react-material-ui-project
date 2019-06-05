@@ -7,6 +7,7 @@ import Pricing from './Pricing';
 import Blog from './Blog';
 import Dashboard from './Dashboard';
 import SignUp from './SignUp';
+import Album from './Album';
 
 function App() {
     return (
@@ -20,6 +21,8 @@ function App() {
             <SignUp />
             <hr />
             <Checkout />
+            <hr />
+            <Album />
             <hr />
             <Pricing />
             <hr />
