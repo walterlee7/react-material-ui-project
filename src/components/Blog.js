@@ -16,11 +16,8 @@ import Link from '@material-ui/core/Link';
 import Button from '@material-ui/core/Button';
 import Divider from '@material-ui/core/Divider';
 import Container from '@material-ui/core/Container';
-// import ReactMarkdown from 'react-markdown';
 import Markdown from './subComponents/Markdown';
-// import post1 from './subComponents/blog-post.1.md';
-// import post2 from './subComponents/blog-post.2.md';
-// import post3 from './subComponents/blog-post.3.md';
+
 
 function MadeWithLove() {
     return (
@@ -132,8 +129,6 @@ const featuredPosts = [
             'This is a wider card with supporting text below as a natural lead-in to additional content.',
     },
 ];
-
-// const posts = [post1, post2, post3];
 
 const archives = [
     'March 2020',
@@ -265,14 +260,6 @@ export default function Blog() {
               </Typography>
                             <Divider />
                             <Markdown />
-
-
-
-                            {/* {posts.map((post) => (
-                                <ReactMarkdown className={classes.markdown} key={post.substring(0, 40)}>
-                                    {post}
-                                </ReactMarkdown>
-                            ))} */}
                         </Grid>
                         {/* End main content */}
                         {/* Sidebar */}
