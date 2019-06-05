@@ -6,6 +6,7 @@ import Checkout from './Checkout';
 import Pricing from './Pricing';
 import Blog from './Blog';
 import Dashboard from './Dashboard';
+import SignUp from './SignUp';
 
 function App() {
     return (
@@ -15,6 +16,8 @@ function App() {
             <SignIn />
             <hr />
             <SignInSide />
+            <hr />
+            <SignUp />
             <hr />
             <Checkout />
             <hr />
