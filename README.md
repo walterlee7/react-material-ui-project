@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## React Material-UI Project
 
-This is React project to showcase Material-UI page layouts.
+This is React project to showcase Material-UI page layouts from: https://material-ui.com/getting-started/page-layout-examples/.
 
 A. requires npm install @material-ui/core.
 
