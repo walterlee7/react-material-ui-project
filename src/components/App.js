@@ -5,10 +5,13 @@ import SignInSide from './SignInSide';
 import Checkout from './Checkout';
 import Pricing from './Pricing';
 import Blog from './Blog';
+import Dashboard from './Dashboard';
 
 function App() {
     return (
         <div className="App">
+            <Dashboard />
+            <hr />
             <SignIn />
             <hr />
             <SignInSide />
