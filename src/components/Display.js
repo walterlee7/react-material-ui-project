@@ -46,17 +46,17 @@ class Display extends React.Component {
     render() {
         return (
             <div className="layouts" >
-                <div className="title">React Material UI Layouts</div>
+                <div className="top-title">React Material UI Layouts</div>
                 <div>
                     <div className="button-layouts">
-                        <button onClick={() => this.handleClick(1)}>Album</button>
-                        <button onClick={() => this.handleClick(2)}>Blog</button>
-                        <button onClick={() => this.handleClick(3)}>Checkout</button>
-                        <button onClick={() => this.handleClick(4)}>Dashboard</button>
-                        <button onClick={() => this.handleClick(5)}>Pricing</button>
-                        <button onClick={() => this.handleClick(6)}>Sign In</button>
-                        <button onClick={() => this.handleClick(7)}>Sign In Side</button>
-                        <button onClick={() => this.handleClick(8)}>Sign Up</button>
+                        <button id="ui-button" onClick={() => this.handleClick(1)}>Album</button>
+                        <button id="ui-button" onClick={() => this.handleClick(2)}>Blog</button>
+                        <button id="ui-button" onClick={() => this.handleClick(3)}>Checkout</button>
+                        <button id="ui-button" onClick={() => this.handleClick(4)}>Dashboard</button>
+                        <button id="ui-button" onClick={() => this.handleClick(5)}>Pricing</button>
+                        <button id="ui-button" onClick={() => this.handleClick(6)}>Sign In</button>
+                        <button id="ui-button" onClick={() => this.handleClick(7)}>Sign In Side</button>
+                        <button id="ui-button" onClick={() => this.handleClick(8)}>Sign Up</button>
 
                     </div>
                 </div>
@@ -65,23 +65,6 @@ class Display extends React.Component {
                         Layout will display here.
                     </div>
                 </div>
-
-                {/* <Dashboard />
-                <hr />
-                <SignIn />
-                <hr />
-                <SignInSide />
-                <hr />
-                <SignUp />
-                <hr />
-                <Checkout />
-                <hr />
-                <Album />
-                <hr />
-                <Pricing />
-                <hr />
-                <Blog />
-                <hr /> */}
             </div>
         );
     }

@@ -2,39 +2,37 @@ body {
     background-color: rgb(216, 217, 218);
 }
 
-hr {
-    background-color: black;
-    padding: 0.1em;
-    margin: 1em;
-}
-
 .layouts {
     text-align: center;
 }
 
-.title {
+.top-title {
     display: inline-block;
-    background-color: grey;
+    background-color: rgb(156, 156, 156);
     padding: 1em;
     margin: 1em;
     font-size: 25px;
     color: white;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.514) 7px 7px 7px;
 }
 
 .button-layouts {
     display: inline-block;
-    background-color: grey;
+    background-color: rgb(206, 206, 206);
     padding: 0.5em;
     margin: 1em;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.514) 7px 7px 7px;
 }
 
-button {
+#ui-button {
     padding: 0.5em;
     font-size: 20px;
     margin: 0.5em;
     background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.514) 7px 7px 7px;
 }
 
 .layout {
