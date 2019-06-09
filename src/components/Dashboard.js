@@ -39,11 +39,12 @@ const drawerWidth = 240;
 const useStyles = makeStyles(theme => ({
     '@global': {
         body: {
-            backgroundColor: 'lightgreen'
+            backgroundColor: 'lightblue',
         },
     },
     root: {
         display: 'flex',
+        position: 'relative'
     },
     toolbar: {
         paddingRight: 24, // keep right padding when drawer closed
@@ -134,7 +135,7 @@ export default function Dashboard() {
     return (
         <div className={classes.root}>
             <CssBaseline />
-            <AppBar position="absolute" className={clsx(classes.appBar, open && classes.appBarShift)}>
+            <AppBar position={"absolute"} className={clsx(classes.appBar, open && classes.appBarShift)} >
                 <Toolbar className={classes.toolbar}>
                     <IconButton
                         edge="start"
@@ -147,7 +148,7 @@ export default function Dashboard() {
                     </IconButton>
                     <Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
                         Dashboard
-          </Typography>
+                    </Typography>
                     <IconButton color="inherit">
                         <Badge badgeContent={4} color="secondary">
                             <NotificationsIcon />
