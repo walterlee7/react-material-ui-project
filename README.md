@@ -1,8 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## React Material-UI Project
 
-This is React project to showcase Material-UI page layouts from: https://material-ui.com/getting-started/page-layout-examples/.
+This is a React project to showcase Material-UI page layouts from: https://material-ui.com/getting-started/page-layout-examples/.
 
 A. requires npm install @material-ui/core.
 
@@ -18,3 +16,5 @@ B. requires npm install @material-ui/icons.
 6. Album
 7. Pricing
 8. Blog - requires npm module: 'react-markdown' - to display .md files
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
