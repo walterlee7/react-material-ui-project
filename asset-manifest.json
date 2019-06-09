@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-material-ui-project/static/css/main.1ae31687.chunk.css",
-    "main.js": "/react-material-ui-project/static/js/main.486c8e0a.chunk.js",
-    "main.js.map": "/react-material-ui-project/static/js/main.486c8e0a.chunk.js.map",
+    "main.css": "/react-material-ui-project/static/css/main.d2da7a88.chunk.css",
+    "main.js": "/react-material-ui-project/static/js/main.1b1c1ce8.chunk.js",
+    "main.js.map": "/react-material-ui-project/static/js/main.1b1c1ce8.chunk.js.map",
     "runtime~main.js": "/react-material-ui-project/static/js/runtime~main.c2b3d6a2.js",
     "runtime~main.js.map": "/react-material-ui-project/static/js/runtime~main.c2b3d6a2.js.map",
     "static/js/2.3da84505.chunk.js": "/react-material-ui-project/static/js/2.3da84505.chunk.js",
     "static/js/2.3da84505.chunk.js.map": "/react-material-ui-project/static/js/2.3da84505.chunk.js.map",
     "index.html": "/react-material-ui-project/index.html",
-    "precache-manifest.7e2402b1dcc8ec4e2d06d9617fcb6214.js": "/react-material-ui-project/precache-manifest.7e2402b1dcc8ec4e2d06d9617fcb6214.js",
+    "precache-manifest.6a9285fab561aba1bf05f36c2b45bbe4.js": "/react-material-ui-project/precache-manifest.6a9285fab561aba1bf05f36c2b45bbe4.js",
     "service-worker.js": "/react-material-ui-project/service-worker.js",
-    "static/css/main.1ae31687.chunk.css.map": "/react-material-ui-project/static/css/main.1ae31687.chunk.css.map",
+    "static/css/main.d2da7a88.chunk.css.map": "/react-material-ui-project/static/css/main.d2da7a88.chunk.css.map",
     "static/media/blog-post.1.md": "/react-material-ui-project/static/media/blog-post.1.164b40df.md",
     "static/media/blog-post.2.md": "/react-material-ui-project/static/media/blog-post.2.b352aae7.md",
     "static/media/blog-post.3.md": "/react-material-ui-project/static/media/blog-post.3.dba2c06b.md"
