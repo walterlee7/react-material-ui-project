@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(216, 217, 218);
+    background-color: rgb(216, 218, 217);
 }
 
 .layouts {
@@ -19,7 +19,7 @@ body {
 
 .button-layouts {
     display: inline-block;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(163, 163, 163);
     padding: 0.5em;
     margin: 1em;
     border-radius: 10px;
@@ -33,6 +33,12 @@ body {
     background-color: white;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.514) 7px 7px 7px;
+}
+
+#ui-button:focus {
+    background-color:rgb(192, 181, 181);
+    border: 2px solid black;
+    outline: 0;
 }
 
 .layout {

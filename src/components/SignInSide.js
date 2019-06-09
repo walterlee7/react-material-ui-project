@@ -26,6 +26,11 @@ function MadeWithLove() {
 }
 
 const useStyles = makeStyles(theme => ({
+    '@global': {
+        body: {
+            backgroundColor: 'lightblue'
+        },
+    },
   root: {
     height: '100vh',
     marginLeft: '0.1em',

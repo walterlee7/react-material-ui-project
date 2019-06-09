@@ -32,6 +32,11 @@ function MadeWithLove() {
 }
 
 const useStyles = makeStyles(theme => ({
+    '@global': {
+        body: {
+            backgroundColor: 'rgb(236, 198, 154)'
+        },
+    },
     toolbar: {
         borderBottom: `1px solid ${theme.palette.divider}`,
     },

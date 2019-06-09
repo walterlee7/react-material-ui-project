@@ -30,7 +30,7 @@ function MadeWithLove() {
 const useStyles = makeStyles(theme => ({
     '@global': {
         body: {
-            backgroundColor: theme.palette.common.white,
+            backgroundColor: 'rgb(167, 154, 243)'
         },
     },
     paper: {

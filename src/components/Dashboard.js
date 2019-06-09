@@ -37,6 +37,11 @@ function MadeWithLove() {
 const drawerWidth = 240;
 
 const useStyles = makeStyles(theme => ({
+    '@global': {
+        body: {
+            backgroundColor: 'lightgreen'
+        },
+    },
     root: {
         display: 'flex',
     },

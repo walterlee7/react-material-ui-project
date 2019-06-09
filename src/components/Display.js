@@ -12,8 +12,10 @@ import Album from './Album';
 class Display extends React.Component {
 
     handleClick(num) {
-        console.log('click');
-        if (num === 1) {
+        if (num === 0) {
+            ReactDOM.render(window.location.reload(), document.getElementById('top-title'));
+        }
+        else if (num === 1) {
             ReactDOM.render(<Album />, document.getElementById('layout-here'));
         }
         else if (num === 2) {
@@ -40,13 +42,12 @@ class Display extends React.Component {
         else {
             alert('Layout Error');
         }
-
     }
 
     render() {
         return (
             <div className="layouts" >
-                <div className="top-title">React Material UI Layouts</div>
+                <div className="top-title" onClick={() => this.handleClick(0)}>React Material UI Layouts</div>
                 <div>
                     <div className="button-layouts">
                         <button id="ui-button" onClick={() => this.handleClick(1)}>Album</button>
